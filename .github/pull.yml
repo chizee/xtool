@@ -1,0 +1,6 @@
+version: "1"
+rules:
+  - base: main
+    upstream: xtool-org:main
+    mergeMethod: hardreset
+    mergeUnstable: true
